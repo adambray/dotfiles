@@ -43,6 +43,11 @@ set convert-meta off
 Control-l: clear-screen
 
 set show-all-if-ambiguous on
+set completion-ignore-case on
+set completion-map-case on
+
+set completion-query-items 1000
+set page-completions off
 
 $if Bash
   #do history expansion when space entered
