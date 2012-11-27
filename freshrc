@@ -1,0 +1,18 @@
+# freshshell.com
+#
+# Examples:
+#
+#   fresh twe4ked/dotfiles shell/functions.sh
+#   fresh jasoncodes/dotfiles aliases/rails.sh
+#   fresh jasoncodes/dotfiles tmux.conf --file
+#
+# See http://freshshell.com/readme for documentation.
+
+#required for fresh
+fresh freshshell/fresh bin/fresh --bin
+
+fresh jasoncodes/dotfiles 'aliases/*' 
+fresh jasoncodes/dotfiles pryrc --file
+fresh jasoncodes/dotfiles gemrc --file
+fresh jasoncodes/dotfiles inputrc --file
+
