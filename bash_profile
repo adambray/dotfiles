@@ -72,6 +72,8 @@ alias ra='bundle exec rake assets:precompile'
 
 alias dep_res_all='cap deploy DOMAIN=ulua.its.yale.edu PREFIX=bmec BRANCH=master && cap deploy DOMAIN=ulua.its.yale.edu PREFIX=forestry BRANCH=master && cap deploy DOMAIN=ulua.its.yale.edu PREFIX=stc-loaners BRANCH=master'
 
+alias ctags='/usr/local/bin/ctags'
+
 #################
 # Bash Settings #
 #################
@@ -120,3 +122,4 @@ if which brew > /dev/null && [ -f "$(brew --prefix)/Library/Contributions/brew_b
 then
   source "$(brew --prefix)/Library/Contributions/brew_bash_completion.sh"
 fi
+
