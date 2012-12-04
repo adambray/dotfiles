@@ -123,3 +123,8 @@ then
   source "$(brew --prefix)/Library/Contributions/brew_bash_completion.sh"
 fi
 
+function last_command() {
+  echo `history -1 | cut -d ' ' -f 3-20 | realiaser`
+}
+
+RPROMPT='%{$fg[$NCOLOR]%}%p $(last_command)%{$reset_color%}'
