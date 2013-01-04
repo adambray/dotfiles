@@ -72,6 +72,8 @@ alias ra='bundle exec rake assets:precompile'
 
 alias dep_res_all='cap deploy DOMAIN=ulua.its.yale.edu PREFIX=bmec BRANCH=master && cap deploy DOMAIN=ulua.its.yale.edu PREFIX=forestry BRANCH=master && cap deploy DOMAIN=ulua.its.yale.edu PREFIX=stc-loaners BRANCH=master'
 
+alias dep_shifts_all='cap deploy DOMAIN=weke.its.yale.edu PREFIX=apps2 BRANCH=master && cap deploy DOMAIN=weke.its.yale.edu PREFIX=acr BRANCH=master && cap deploy DOMAIN=weke.its.yale.edu PREFIX=fsc BRANCH=master && cap deploy DOMAIN=weke.its.yale.edu PREFIX=mediaservices BRANCH=master && cap deploy DOMAIN=weke.its.yale.edu PREFIX=ssrs BRANCH=master && cap deploy DOMAIN=weke.its.yale.edu PREFIX=stcdev BRANCH=master'
+
 alias ctags='/usr/local/bin/ctags'
 
 #################
