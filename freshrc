@@ -17,6 +17,6 @@ fresh adambray/dotfiles inputrc --file
 fresh adambray/dotfiles irbrc --file
 fresh adambray/dotfiles slate --file
 
-fresh jasoncodes/dotfiles 'aliases/*' 
+fresh jasoncodes/dotfiles shell/aliases/\*
 fresh jasoncodes/dotfiles config/pryrc --file
 fresh jasoncodes/dotfiles config/gemrc --file
