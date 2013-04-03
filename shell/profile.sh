@@ -63,7 +63,6 @@ stty -ixon
 
 # RBenv and other apps in path
 export PATH="$HOME/.rbenv/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$HOME/bin:$PATH"
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # open man pages in Preview.app
 if [ -d "/Applications/Preview.app" ]
