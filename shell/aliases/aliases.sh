@@ -24,15 +24,32 @@ function dep_res {
             `cap deploy:migrate DOMAIN=ulua.its.yale.edu PREFIX=$opt BRANCH=master`
           fi
         done
-        exit
+        break
       else
         `cap deploy DOMAIN=ulua.its.yale.edu PREFIX=$opt BRANCH=master`
         `cap deploy:migrate DOMAIN=ulua.its.yale.edu PREFIX=$opt BRANCH=master`
-        exit
+        break
       fi
   done
 }
 
-alias dep_shifts_all='cap deploy DOMAIN=weke.its.yale.edu PREFIX=apps2 BRANCH=master && cap deploy DOMAIN=weke.its.yale.edu PREFIX=acr BRANCH=master && cap deploy DOMAIN=weke.its.yale.edu PREFIX=fsc BRANCH=master && cap deploy DOMAIN=weke.its.yale.edu PREFIX=mediaservices BRANCH=master && cap deploy DOMAIN=weke.its.yale.edu PREFIX=ssrs BRANCH=master && cap deploy DOMAIN=weke.its.yale.edu PREFIX=stcdev BRANCH=master && cap deploy DOMAIN=weke.its.yale.edu PREFIX=stc_training BRANCH=master'
+function dep_shifts {
+  OPTIONS="all acr apps2 fsc mediaservices ssrs stcdev stc_training"
+  select opt in $OPTIONS; do
+      if [ "$opt" = "all" ]; then
+        for opt in $OPTIONS; do
+          if [ "$opt" != "all" ]; then
+            `cap deploy DOMAIN=weke.its.yale.edu PREFIX=$opt BRANCH=master`
+            `cap deploy:migrate DOMAIN=weke.its.yale.edu PREFIX=$opt BRANCH=master`
+          fi
+        done
+        break
+      else
+        `cap deploy DOMAIN=weke.its.yale.edu PREFIX=$opt BRANCH=master`
+        `cap deploy:migrate DOMAIN=weke.its.yale.edu PREFIX=$opt BRANCH=master`
+        break
+      fi
+  done
+}
 
 alias ctags='/usr/local/bin/ctags'
