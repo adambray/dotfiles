@@ -1,11 +1,11 @@
 # Easy 'cd' to common dirs
-export CDPATH=.:~:~/Links:~/code/:~/code/stc/
+export CDPATH=.:~:~/Links:~/code/:~/code/stc/:~/code/personal
 
 # Textmate
 export EDITOR='/usr/local/bin/subl'
 
 # For Oracle on Navicat
-# export DYLD_LIBRARY_PATH="/usr/local/oracle/instantclient_10_2"
+export DYLD_LIBRARY_PATH="/opt/oracle"
 export SQLPATH="/usr/local/oracle/instantclient_10_2"
 export TNS_ADMIN="/usr/local/oracle/network/admin"
 export NLS_LANG="AMERICAN_AMERICA.UTF8"
