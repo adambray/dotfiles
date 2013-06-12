@@ -85,3 +85,7 @@ if which brew > /dev/null && [ -f "$(brew --prefix)/Library/Contributions/brew_b
 then
   source "$(brew --prefix)/Library/Contributions/brew_bash_completion.sh"
 fi
+
+# improve performance of rails apps (at cost of memory usage)
+export RUBY_GC_MALLOC_LIMIT=60000000
+export RUBY_FREE_MIN=200000
