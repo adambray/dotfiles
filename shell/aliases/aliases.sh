@@ -1,5 +1,5 @@
 # Git aliases
-alias git=hub
+# alias git=hub
 alias gb='git branch'
 alias gdc='git diff --cached'
 
