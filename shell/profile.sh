@@ -17,6 +17,7 @@ export PATH="$MAGICK_HOME/bin:$PATH"
 #export DYLD_LIBRARY_PATH="$MAGICK_HOME/lib:$DYLD_LIBRARY_PATH"
 
 export JAVA_HOME=$(/usr/libexec/java_home)
+export EC2_HOME="/usr/local/ec2-api-tools-1.6.11.0"
 
 # Tab-completion for Git.
 if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
