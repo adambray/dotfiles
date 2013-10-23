@@ -16,6 +16,8 @@ export MAGICK_HOME="/usr/local/ImageMagick-6.5.1"
 export PATH="$MAGICK_HOME/bin:$PATH"
 #export DYLD_LIBRARY_PATH="$MAGICK_HOME/lib:$DYLD_LIBRARY_PATH"
 
+export JAVA_HOME=$(/usr/libexec/java_home)
+
 # Tab-completion for Git.
 if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
 . `brew --prefix`/etc/bash_completion.d/git-completion.bash
