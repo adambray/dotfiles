@@ -1,3 +1,6 @@
+# Private environment variables
+source ~/.environment
+
 # Easy 'cd' to common dirs
 export CDPATH=.:~:~/Links:~/code/:~/code/stc/:~/code/personal
 
@@ -16,9 +19,12 @@ export MAGICK_HOME="/usr/local/ImageMagick-6.5.1"
 export PATH="$MAGICK_HOME/bin:$PATH"
 #export DYLD_LIBRARY_PATH="$MAGICK_HOME/lib:$DYLD_LIBRARY_PATH"
 
+# EC2 Tools
 export JAVA_HOME=$(/usr/libexec/java_home)
 export EC2_HOME="/usr/local/ec2-api-tools-1.6.11.0"
 export PATH=$PATH:$EC2_HOME/bin
+
+
 # Tab-completion for Git.
 if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
 . `brew --prefix`/etc/bash_completion.d/git-completion.bash
