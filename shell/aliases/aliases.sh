@@ -39,14 +39,14 @@ function dep_shifts {
       if [ "$opt" = "all" ]; then
         for opt in $OPTIONS; do
           if [ "$opt" != "all" ]; then
-            `cap deploy DOMAIN=weke.its.yale.edu PREFIX=$opt BRANCH=master`
-            `cap deploy:migrate DOMAIN=weke.its.yale.edu PREFIX=$opt BRANCH=master`
+            `cap deploy DOMAIN=weke.its.yale.edu PREFIX=$opt BRANCH=rails2_master`
+            `cap deploy:migrate DOMAIN=weke.its.yale.edu PREFIX=$opt BRANCH=rails2_master`
           fi
         done
         break
       else
-        `cap deploy DOMAIN=weke.its.yale.edu PREFIX=$opt BRANCH=master`
-        `cap deploy:migrate DOMAIN=weke.its.yale.edu PREFIX=$opt BRANCH=master`
+        `cap deploy DOMAIN=weke.its.yale.edu PREFIX=$opt BRANCH=rails2_master`
+        `cap deploy:migrate DOMAIN=weke.its.yale.edu PREFIX=$opt BRANCH=rails2_master`
         break
       fi
   done
