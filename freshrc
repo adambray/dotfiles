@@ -11,9 +11,9 @@
 # required for fresh
 fresh freshshell/fresh bin/fresh --bin
 
+fresh shell/\*
 fresh shell/aliases/aliases.sh
 fresh config/\* --file
-fresh shell/\*
 
 # auto-source fresh build into bash_profile / bashrc
 fresh freshshell/fresh contrib/source-build.sh --file=~/.bash_profile

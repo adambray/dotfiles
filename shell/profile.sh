@@ -1,3 +1,6 @@
+# Start in code dir by default
+cd ~/code
+
 # Private environment variables
 source ~/.environment
 
