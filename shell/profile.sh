@@ -27,6 +27,8 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export EC2_HOME="/usr/local/ec2-api-tools-1.6.11.0"
 export PATH=$PATH:$EC2_HOME/bin
 
+export CODE_PATH=$HOME/code
+
 
 # Tab-completion for Git.
 if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
