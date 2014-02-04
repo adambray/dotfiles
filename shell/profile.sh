@@ -71,7 +71,7 @@ HISTIGNORE='ls:bg:fg:history'
 # Timestamp
 HISTTIMEFORMAT='%F %T '
 # Store history immediately
-PROMPT_COMMAND="history -a; $PROMPT_COMMAND; update_terminal_cwd"
+PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 # Turn of XON/XOFF Flow Control
 stty -ixon
 
