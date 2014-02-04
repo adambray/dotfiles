@@ -3,6 +3,8 @@
 
 # A function that jumps to a particular wk/day folder in the class repo
 
+export WDI_PATH=$CODE_PATH/general_assembly/wdi
+
 function wdi() {
   local WEEK_NUM=$1
   local DAY_NUM=$2
