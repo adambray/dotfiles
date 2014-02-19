@@ -5,7 +5,7 @@ cd ~/code
 source ~/.environment
 
 # Easy 'cd' to common dirs
-export CDPATH=.:~:~/Links:~/code/:~/code/stc/:~/code/personal
+export CDPATH=.:~:~/code/:~/code/stc/:~/code/personal:~/code/general_assembly
 
 # Textmate
 export EDITOR='/usr/local/bin/subl'
