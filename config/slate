@@ -63,7 +63,7 @@ default 1monitor  resolutions:${mon-laptop}
 # bind pad+ throw next
 # bind pad. focus behind
 
-bind e:cmd  ${showHintsLeftHand}
+bind e:cmd  ${showNormalHint}
 
 # ======================================
 # The HYPER key
