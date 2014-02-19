@@ -75,7 +75,7 @@ bind e:cmd  ${showNormalHint}
 alias hyper ctrl;shift;alt;cmd
 
 # testing new switcher
-bind tab:cmd switch
+bind tab:${hyper} switch
 
 # Layout bindings
 bind l:${hyper} layout 1monitor
