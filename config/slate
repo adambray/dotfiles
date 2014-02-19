@@ -9,6 +9,9 @@ config keyboardLayout qwerty
 config windowHintsShowIcons true
 config windowHintsIgnoreHiddenWindows false
 config windowHintsSpread true
+config windowHintsSpreadSearchWidth 100
+config windowHintsSpreadSearchHeight 100
+config windowHintsSpreadPadding 100
 #config windowHintsDuration 5
 #config windowHintsOrder persist
 
@@ -63,7 +66,7 @@ default 1monitor  resolutions:${mon-laptop}
 # bind pad+ throw next
 # bind pad. focus behind
 
-bind e:cmd  ${showNormalHint}
+bind e:cmd  ${showNormalHinte}
 
 # ======================================
 # The HYPER key
