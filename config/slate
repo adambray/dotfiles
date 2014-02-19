@@ -74,6 +74,9 @@ bind e:cmd  ${showNormalHint}
 
 alias hyper ctrl;shift;alt;cmd
 
+# testing new switcher
+bind tab:cmd switch
+
 # Layout bindings
 bind l:${hyper} layout 1monitor
 bind g:${hyper} grid padding:5 0:6,2 1:8,3
