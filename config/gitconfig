@@ -3,8 +3,10 @@
     email = adam.bray@yale.edu
 [core]
     quotepath = false
+    editor = subl
+    excludesfile = ~/.gitignore_global
 [color]
-    ui = auto
+    ui = always
 [color "branch"]
     current = yellow reverse
     local = yellow
@@ -16,13 +18,17 @@
     new = green bold
     whitespace = red reverse
 [color "status"]
-    added = yellow  
-    changed = green 
+    added = yellow
+    changed = green
     untracked = cyan
+[branch]
+    autosetuprebase = always
 [alias]
     # Show files ignored by git:
-    ign = ls-files -o -i --exclude-standard    
+    ign = ls-files -o -i --exclude-standard
 	lcrev = log --reverse --no-merges --stat @{1}..
+    undocommit = reset --soft HEAD^
+    undopush = push -f origin HEAD^:master
 [push]
 	default = current
 [credential]
