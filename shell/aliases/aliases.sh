@@ -18,6 +18,8 @@ alias dl='cd ~/Downloads'
 alias doc='cd ~/Documents'
 alias dsk='cd ~/Desktop'
 
+alias diff='opendiff'
+
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update --system; sudo gem update'
 
 alias dotfiles='cd ~/.dotfiles && subl .'
