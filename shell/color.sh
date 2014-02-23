@@ -92,7 +92,7 @@ PS1="${style_user}\u"                    # Username
 PS1+="${style_path} \w"                  # Working directory
 PS1+="\$(prompt_git)"                    # Git details
 PS1+="\n"                                # Newline
-PS1+="${style_chars}\$ \[${RESET}\]"     # $ (and reset color)
+PS1+="${style_chars}\$ \[${RESET}\] <U+1F354>"     # $ (and reset color)
 # -----------------
 # For the prompt
 # -----------------
