@@ -64,15 +64,15 @@ fi
 # Print Stats on terminal load
 # ---------------------
 # GA General Assembly Webdevelopment Immersive
-echo ${BG_RED}${WHITE}GA${RESET}${WHITE}${BG_BLACK} General Assembly ${RESET}${BG_YELLOW}${BLACK} Web Development Immersive ${RESET}
-echo "------------------------------------------"
-echo $(ruby -v)
-echo $(rails -v)
-echo $(git --version)
-echo $(heroku --version)
-echo $(psql --version)
-echo $(brew -v)
-echo "------------------------------------------"
+# echo ${BG_RED}${WHITE}GA${RESET}${WHITE}${BG_BLACK} General Assembly ${RESET}${BG_YELLOW}${BLACK} Web Development Immersive ${RESET}
+# echo "------------------------------------------"
+# echo $(ruby -v)
+# echo $(rails -v)
+# echo $(git --version)
+# echo $(heroku --version)
+# echo $(psql --version)
+# echo $(brew -v)
+# echo "------------------------------------------"
 
 
 
