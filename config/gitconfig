@@ -22,7 +22,6 @@
     changed = green
     untracked = cyan
 [branch]
-    autosetuprebase = always
 [alias]
     # Show files ignored by git:
     ign = ls-files -o -i --exclude-standard
