@@ -11,10 +11,10 @@ export CDPATH=.:~:~/code/:~/code/stc/:~/code/personal:~/code/general_assembly
 export EDITOR='/usr/local/bin/subl'
 
 # For Oracle on Navicat
-export DYLD_LIBRARY_PATH="/opt/oracle"
-export SQLPATH="/usr/local/oracle/instantclient_10_2"
-export TNS_ADMIN="/usr/local/oracle/network/admin"
-export NLS_LANG="AMERICAN_AMERICA.UTF8"
+# export DYLD_LIBRARY_PATH="/opt/oracle"
+# export SQLPATH="/usr/local/oracle/instantclient_10_2"
+# export TNS_ADMIN="/usr/local/oracle/network/admin"
+# export NLS_LANG="AMERICAN_AMERICA.UTF8"
 # export PATH=$PATH:$DYLD_LIBRARY_PATH
 
 # ImageMagik
