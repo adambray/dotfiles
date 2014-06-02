@@ -75,6 +75,8 @@ stty -ixon
 
 # RBenv and other apps in path
 export PATH="$HOME/.rbenv/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$HOME/bin:$PATH"
+eval "$(rbenv init -)"
+
 
 # load Homebrew's shell completion
 if which brew > /dev/null && [ -f "$(brew --prefix)/Library/Contributions/brew_bash_completion.sh" ]
