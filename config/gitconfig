@@ -3,7 +3,7 @@
     email = adam.bray@yale.edu
 [core]
     quotepath = false
-    editor = subl
+    editor = atom -w
     excludesfile = ~/.gitignore_global
 [color]
     ui = always

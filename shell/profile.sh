@@ -7,20 +7,12 @@ source ~/.environment
 # Easy 'cd' to common dirs
 export CDPATH=.:~:~/code/:~/code/stc/:~/code/personal:~/code/general_assembly
 
-# Textmate
-export EDITOR='/usr/local/bin/subl'
-
-# For Oracle on Navicat
-# export DYLD_LIBRARY_PATH="/opt/oracle"
-# export SQLPATH="/usr/local/oracle/instantclient_10_2"
-# export TNS_ADMIN="/usr/local/oracle/network/admin"
-# export NLS_LANG="AMERICAN_AMERICA.UTF8"
-# export PATH=$PATH:$DYLD_LIBRARY_PATH
+# Atom
+export EDITOR='atom -w'
 
 # ImageMagik
 export MAGICK_HOME="/usr/local/ImageMagick-6.5.1"
 export PATH="$MAGICK_HOME/bin:$PATH"
-#export DYLD_LIBRARY_PATH="$MAGICK_HOME/lib:$DYLD_LIBRARY_PATH"
 
 # EC2 Tools
 export JAVA_HOME=$(/usr/libexec/java_home)
