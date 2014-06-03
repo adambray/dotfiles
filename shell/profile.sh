@@ -15,7 +15,7 @@ export MAGICK_HOME="/usr/local/ImageMagick-6.5.1"
 export PATH="$MAGICK_HOME/bin:$PATH"
 
 # EC2 Tools
-export JAVA_HOME=$(/usr/libexec/java_home)
+# export JAVA_HOME=$(/usr/libexec/java_home)
 export EC2_HOME="/usr/local/ec2-api-tools-1.6.11.0"
 export PATH=$PATH:$EC2_HOME/bin
 
