@@ -8,8 +8,9 @@ export WDI_PATH=$CODE_PATH/general_assembly/wdi/
 # example: alias wdi="cd ~/Documents/GA/WDI4"
 
 alias wdi="cd $WDI_PATH"
-alias tender="cd $WDI_PATH/tender_touches"
-alias students="cd $WDI_PATH/students"
+alias tender="cd $WDI_PATH/map_feb_2014/tender_touches"
+alias hamco="cd $WDI_PATH/closure_jun_2014/hamco"
+alias students="cd $WDI_PATH/closure_jun_2014/students"
 
 cdhwfunc() {
   # takes three args: the week, the day
