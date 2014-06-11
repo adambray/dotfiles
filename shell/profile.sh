@@ -9,7 +9,7 @@ export CDPATH=.:~:~/code/:~/code/stc/:~/code/personal:~/code/general_assembly
 
 # Atom
 export EDITOR='atom -w'
-export ATOM_PATH='~/Applications'
+export ATOM_PATH="$HOME/Applications/"
 
 # ImageMagik
 export MAGICK_HOME="/usr/local/ImageMagick-6.5.1"
