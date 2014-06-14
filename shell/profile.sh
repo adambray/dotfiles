@@ -23,6 +23,9 @@ export PATH=$PATH:$EC2_HOME/bin
 export PATH="/usr/local/share/npm/bin:$PATH"
 export CODE_PATH=$HOME/code
 
+# go programming language
+export GOPATH=/usr/local/Cellar/go/
+export PATH=$PATH:$GOPATH/bin
 
 # Tab-completion for Git.
 if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
