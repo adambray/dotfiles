@@ -9,7 +9,7 @@ export CDPATH=.:~:~/code/:~/code/stc/:~/code/personal:~/code/general_assembly
 
 # Atom
 export EDITOR='atom -w'
-export ATOM_PATH="$HOME/Applications/"
+export ATOM_PATH="$HOME/Applications/Atom.app/"
 
 # ImageMagik
 export MAGICK_HOME="/usr/local/ImageMagick-6.5.1"
@@ -47,7 +47,7 @@ function parse_git_branch {
 
 # Prompt shows current path, git branch and timestamp (useful to know when you run what command)
 export PS1='\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(parse_git_branch)   ҈ \n$ '
-# export PS1='🎩  '
+# export PS1=''
 
 
 #################
