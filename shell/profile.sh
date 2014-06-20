@@ -7,6 +7,9 @@ source ~/.environment
 # Easy 'cd' to common dirs
 export CDPATH=.:~:~/code/:~/code/stc/:~/code/personal:~/code/general_assembly
 
+# Node Path
+export NODE_PATH='/usr/local/lib/node_modules/'
+
 # Atom
 export EDITOR='atom -w'
 export ATOM_PATH="$HOME/Applications/Atom.app/"
