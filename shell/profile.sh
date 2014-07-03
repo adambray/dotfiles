@@ -48,10 +48,16 @@ function parse_git_branch {
   [[ $branch ]] && echo "[$branch$(parse_git_dirty)]"
 }
 
-# Prompt shows current path, git branch and timestamp (useful to know when you run what command)
-export PS1='\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(parse_git_branch)   ҈ \n$ '
-# export PS1=''
+function fancy_shell {
+  # Prompt shows current path, git branch and timestamp (useful to know when you run what command)
+  export PS1='\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(parse_git_branch)   ҈ \n$ '
+}
 
+function simple_shell {
+  export PS1="$1   "
+}
+
+fancy_shell
 
 #################
 # Bash Settings #
