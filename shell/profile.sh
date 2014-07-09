@@ -12,7 +12,7 @@ export NODE_PATH='/usr/local/lib/node_modules/'
 
 # Atom
 export EDITOR='atom -w'
-export ATOM_PATH="$HOME/Applications/Atom.app/"
+export ATOM_PATH="/opt/homebrew-cask/Caskroom/atom/latest/"
 
 # ImageMagik
 export MAGICK_HOME="/usr/local/ImageMagick-6.5.1"
