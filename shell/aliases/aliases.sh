@@ -10,6 +10,8 @@ alias l='ls -CF'
 alias h='history'
 alias b='cd ..'
 
+alias o='ssh oppenheimer'
+
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
@@ -95,4 +97,3 @@ then
     open -f -a /Applications/Preview.app
   }
 fi
-
