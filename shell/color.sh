@@ -1,7 +1,7 @@
 # I like color :)
 export CLICOLOR=1
 export TERM=xterm-color
-export LSCOLORS=faexcxdxbxegedabagacad # PJ: turned off
+export LSCOLORS=faexcxdxbxegedabagacad
 
 
 # --------------------
