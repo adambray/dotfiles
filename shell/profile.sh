@@ -50,7 +50,7 @@ function parse_git_branch {
 
 function fancy_shell {
   # Prompt shows current path, git branch and timestamp (useful to know when you run what command)
-  export PS1='\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(prompt_git)   ҈ \n${RESET}$ '
+  export PS1='\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(prompt_git)${RESET}   ҈ \n$ '
 }
 
 function simple_shell {
