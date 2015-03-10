@@ -4,14 +4,17 @@
 
 export WDI_PATH="$CODE_PATH/general_assembly/wdi"
 
-tender="$WDI_PATH/map_feb_2014/tender_touches"
-hamco="$WDI_PATH/closure_jun_2014/hamco"
-students="$WDI_PATH/closure_jun_2014/students"
+tender="$WDI_PATH/nyc/map_feb_2014/tender_touches"
+hamco="$WDI_PATH/nyc/closure_jun_2014/hamco"
+students="$WDI_PATH/dc/dc5/students"
+instructors="$WDI_PATH/dc/dc5/instructors"
+
 
 alias wdi="cd $WDI_PATH"
 alias tender="cd $tender"
 alias hamco="cd $hamco"
 alias students="cd $students"
+alias instructors="cd $instructors"
 
 cdhwfunc() {
   # takes three args: the week, the day
