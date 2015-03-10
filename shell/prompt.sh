@@ -69,7 +69,7 @@ FANCY_PROMPT+="${style_chars}\$ \[${RESET}\] "     # $ (and reset color)
 function fancy_shell {
   # Prompt shows current path, git branch and timestamp (useful to know when you run what command)
   # export PS1='\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(prompt_git)${RESET}   ҈ \n$ '
-  export PS1=FANCY_PROMPT
+  export PS1="$FANCY_PROMPT"
 }
 
 function simple_shell {
