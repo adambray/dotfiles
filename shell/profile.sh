@@ -39,26 +39,6 @@ if [ -f `brew --prefix`/etc/bash_completion.d/git-prompt.sh ]; then
     . `brew --prefix`/etc/bash_completion.d/git-prompt.sh
 fi
 
-# show branch and dirty status
-function parse_git_dirty {
-  [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit, working directory clean" ]] && echo "⚡"
-}
-function parse_git_branch {
-  local branch=$(__git_ps1 "%s")
-  [[ $branch ]] && echo "[$branch$(parse_git_dirty)]"
-}
-
-function fancy_shell {
-  # Prompt shows current path, git branch and timestamp (useful to know when you run what command)
-  export PS1='\[\e]0;\u@\h: \w\a\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(prompt_git)${RESET}   ҈ \n$ '
-}
-
-function simple_shell {
-  export PS1="$1   "
-}
-
-fancy_shell
-
 #################
 # Bash Settings #
 #################
