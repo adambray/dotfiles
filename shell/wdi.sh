@@ -1,7 +1,8 @@
 #### General Assemb.ly/WDI Stuff
 
-# A function that jumps to a particular wk/day folder in the class repo
+export GA_CLASS_NAME=wdi-dc-5ama
 
+export CLASS_NAME=wdi-dc-5a
 export WDI_PATH="$CODE_PATH/general_assembly/wdi"
 
 tender="$WDI_PATH/nyc/map_feb_2014/tender_touches"
@@ -16,6 +17,7 @@ alias hamco="cd $hamco"
 alias students="cd $students"
 alias instructors="cd $instructors"
 
+# A function that jumps to a particular wk/day folder in the class repo
 cdhwfunc() {
   # takes three args: the week, the day
   # and an optional third for the user
@@ -34,3 +36,5 @@ cpr() {
   git fetch origin
   git checkout pr/$1
 }
+
+alias wdibuzz='_wdibuzz(){ curl "http://wdi-buzzer.herokuapp.com/api/buzz/do/$GA_CLASS_NAME/matt_806501bab6/$1" --silent | sed '\''s/[[:space:]]$//g'\''; return; }; _wdibuzz'
