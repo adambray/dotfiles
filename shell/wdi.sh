@@ -1,8 +1,8 @@
 #### General Assemb.ly/WDI Stuff
 
 export GA_CLASS_NAME=wdi-dc-5ama
-
 export CLASS_NAME=wdi-dc-5a
+
 export WDI_PATH="$CODE_PATH/general_assembly/wdi"
 
 tender="$WDI_PATH/nyc/map_feb_2014/tender_touches"
@@ -37,4 +37,4 @@ cpr() {
   git checkout pr/$1
 }
 
-alias wdibuzz='_wdibuzz(){ curl "http://wdi-buzzer.herokuapp.com/api/buzz/do/$GA_CLASS_NAME/matt_806501bab6/$1" --silent | sed '\''s/[[:space:]]$//g'\''; return; }; _wdibuzz'
+alias wdibuzz="_wdibuzz(){ curl \"http://wdi-dc-buzzer.herokuapp.com/api/buzz/do/Team%20Eskimo%20Kisses/$(whoami | xargs)_$(ifconfig | grep ether | head -1 | sed 's/[[:space:]|:|ether]*//g')/\$1\" --silent | sed 's/[[:space:]]$//g';return; }; _wdibuzz"
