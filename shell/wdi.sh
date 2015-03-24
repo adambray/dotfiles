@@ -17,6 +17,7 @@ alias tender="cd $tender"
 alias hamco="cd $hamco"
 alias students="cd $students"
 alias instructors="cd $instructors"
+alias hw="cd $hw"
 
 # A function that jumps to a particular wk/day folder in the class repo
 cdhwfunc() {
