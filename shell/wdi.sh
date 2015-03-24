@@ -9,6 +9,7 @@ tender="$WDI_PATH/nyc/map_feb_2014/tender_touches"
 hamco="$WDI_PATH/nyc/closure_jun_2014/hamco"
 students="$WDI_PATH/dc/dc5/students"
 instructors="$WDI_PATH/dc/dc5/instructors"
+hw="$WDI_PATH/dc/dc5/hw"
 
 
 alias wdi="cd $WDI_PATH"
