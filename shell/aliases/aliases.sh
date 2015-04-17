@@ -26,6 +26,8 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup
 
 alias dotfiles='cd ~/.dotfiles && atom .'
 
+alias fuck='$(thefuck $(fc -ln -1))'
+
 # ================
 # Git Aliases
 # ================

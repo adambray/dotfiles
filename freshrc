@@ -30,7 +30,7 @@ fresh jasoncodes/dotfiles bin/fixopenwith --bin
 fresh jasoncodes/dotfiles bin/gemdiff --bin
 fresh jasoncodes/dotfiles bin/pidof --bin
 
-# fresh jasoncodes/dotfiles shell/aliases/\*
+fresh jasoncodes/dotfiles shell/aliases/\*
 fresh jasoncodes/dotfiles shell/config/hitch.sh
 # fresh jasoncodes/dotfiles shell/config/rbenv.sh
 fresh jasoncodes/dotfiles shell/config/heroku.sh
