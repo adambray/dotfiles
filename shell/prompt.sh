@@ -72,7 +72,7 @@ function fancy_shell {
 }
 
 function simple_shell {
-  export PS1="$1   "
+  export PS1="$1   $ "
 }
 
 fancy_shell
