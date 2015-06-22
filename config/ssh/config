@@ -36,3 +36,7 @@ Host oppenheimer
 Hostname adambray.me
 User adambray
 Port 7468
+
+Host wdidc
+Hostname wdidc.org
+User adambray
