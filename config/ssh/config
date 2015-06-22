@@ -12,6 +12,7 @@ Hostname adambray.me
 User adambray
 Port 7468
 
+# can't ssh into bare domain
 Host wdidc
-Hostname wdidc.org
+Hostname ssh.wdidc.org
 User adambray
