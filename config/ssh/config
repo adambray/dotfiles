@@ -7,31 +7,6 @@ IdentityFile ~/.ssh/id_rsa
 IdentityFile ~/.ssh/mailman
 IdentityFile ~/.ssh/id_dsa
 
-
-Host weke
-HostName weke.its.yale.edu
-RemoteForward 8022 localhost:22
-
-Host ulua
-HostName ulua.its.yale.edu
-RemoteForward 8022 localhost:22
-
-Host zoo_dev
-HostName vm-zookeeperdev-01.its.yale.edu
-
-Host zoo_staging
-HostName vm-zookeeperstg-01.its.yale.edu
-
-Host ror_web
-HostName vm-rordevweb-04.web.yale.internal
-
-Host ror_web_old
-HostName vm-rordevweb-01.web.yale.internal
-
-Host yalewiki
-Hostname ssh.phx.nearlyfreespeech.net
-User fuzzybassoon_wikiyu
-
 Host oppenheimer
 Hostname adambray.me
 User adambray
