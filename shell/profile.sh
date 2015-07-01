@@ -5,7 +5,8 @@
 source ~/.environment
 
 # Easy 'cd' to common dirs
-export CDPATH=.:~:~/code/:~/code/stc/:~/code/personal:~/code/general_assembly
+export CDPATH=.:~:~/code/:~/code/stc/:~/code/personal:~/code/work/general_assembly
+. `brew --prefix`/etc/profile.d/z.sh
 
 # Node Path
 export NODE_PATH='/usr/local/lib/node_modules/'
