@@ -41,3 +41,4 @@ Thumbs.db
 # Additional Settings in bash profile
 #####################################
 .extra
+.ruby-version
