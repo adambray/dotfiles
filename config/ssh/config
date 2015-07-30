@@ -15,4 +15,4 @@ Port 7468
 # can't ssh into bare domain
 Host wdidc
 Hostname ssh.wdidc.org
-User adambray
+User git
