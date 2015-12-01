@@ -44,3 +44,12 @@ alias hw="cd $hw"
 # }
 
 alias wdibuzz="_wdibuzz(){ curl \"http://wdi-dc-buzzer.herokuapp.com/api/buzz/do/Team%20Eskimo%20Kisses/$(whoami | xargs)_$(ifconfig | grep ether | head -1 | sed 's/[[:space:]|:|ether]*//g')/\$1\" --silent | sed 's/[[:space:]]$//g';return; }; _wdibuzz"
+
+
+garnet(){
+  case $1 in
+logs)
+  ssh debug@garnet.wdidc.org "tail -f /var/www/garnet.wdidc.org/log/production.log"
+  ;;
+  esac
+}
