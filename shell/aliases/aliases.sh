@@ -29,6 +29,7 @@ alias dotfiles='cd ~/.dotfiles && atom .'
 alias fuck='$(thefuck $(fc -ln -1))'
 
 alias a='atom .'
+alias w='ansiweather'
 
 # ================
 # Git Aliases
