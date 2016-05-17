@@ -3,6 +3,7 @@ IdentityFile ~/.ec2/sp_adam
 IdentityFile ~/.ec2/sl_adam
 
 # personal
+IdentityFile ~/.ssh/heroku_ga_rsa
 IdentityFile ~/.ssh/id_rsa
 IdentityFile ~/.ssh/mailman
 IdentityFile ~/.ssh/id_dsa
