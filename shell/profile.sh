@@ -1,8 +1,10 @@
 # Start in code dir by default
 # cd ~/code
 
+
 # Private environment variables
 source ~/.environment
+source ~/.bashrc_orig
 
 # Easy 'cd' to common dirs
 export CDPATH=.:~:~/code/:~/code/stc/:~/code/personal:~/code/work/general_assembly
