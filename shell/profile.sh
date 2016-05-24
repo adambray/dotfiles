@@ -31,26 +31,26 @@ export CODE_PATH=$HOME/code
 export GOPATH=/usr/local/Cellar/go/
 export PATH=$PATH:$GOPATH/bin
 
-
-if ! type "brew" > /dev/null; then
-  # Tab-completion for Git.
-  if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
-  . `brew --prefix`/etc/bash_completion.d/git-completion.bash
-  fi
-
-  if [ -f `brew --prefix`/etc/bash_completion.d/git-prompt.sh ]; then
-      . `brew --prefix`/etc/bash_completion.d/git-prompt.sh
-  fi
-
-  . `brew --prefix`/etc/profile.d/z.sh
-
-  # load Homebrew's shell completion
-  if which brew > /dev/null && [ -f "$(brew --prefix)/Library/Contributions/brew_bash_completion.sh" ]
-  then
-    source "$(brew --prefix)/Library/Contributions/brew_bash_completion.sh"
-  fi
-
-fi
+#
+# if ! type "brew" > /dev/null; then
+#   # Tab-completion for Git.
+#   if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
+#   . `brew --prefix`/etc/bash_completion.d/git-completion.bash
+#   fi
+#
+#   if [ -f `brew --prefix`/etc/bash_completion.d/git-prompt.sh ]; then
+#       . `brew --prefix`/etc/bash_completion.d/git-prompt.sh
+#   fi
+#
+#   . `brew --prefix`/etc/profile.d/z.sh
+#
+#   # load Homebrew's shell completion
+#   if which brew > /dev/null && [ -f "$(brew --prefix)/Library/Contributions/brew_bash_completion.sh" ]
+#   then
+#     source "$(brew --prefix)/Library/Contributions/brew_bash_completion.sh"
+#   fi
+#
+# fi
 
 
 #################
