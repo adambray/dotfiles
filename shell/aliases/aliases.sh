@@ -15,7 +15,7 @@ alias o='ssh oppenheimer'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-
+alias ccc='sudo rm -rf /private/var/folders/'
 alias dl='cd ~/Downloads'
 alias doc='cd ~/Documents'
 alias dsk='cd ~/Desktop'
