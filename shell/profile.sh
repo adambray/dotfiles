@@ -64,11 +64,11 @@ unset HISTFILESIZE
 HISTSIZE=1000000
 # Don't store dupes, and ignore lines starting with space and other common commands
 HISTCONTROL=ignoreboth
-HISTIGNORE='bg:fg:history:h:ls:ls *:ll:ll *:sudo rm*'
+# HISTIGNORE='bg:fg:history:h:ls:ls *:ll:ll *:sudo rm*'
 # Timestamp
 HISTTIMEFORMAT='%F %T '
 # Store history immediately
-# PROMPT_COMMAND="$PROMPT_COMMAND history -a"
+PROMPT_COMMAND="$PROMPT_COMMAND history -a"
 # Turn of XON/XOFF Flow Control
 stty -ixon
 
