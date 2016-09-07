@@ -64,7 +64,7 @@ unset HISTFILESIZE
 HISTSIZE=1000000
 # Don't store dupes, and ignore lines starting with space and other common commands
 HISTCONTROL=ignoreboth
-HISTIGNORE='bg:fg:history:h:ls:ls *:ll:ll *:'
+HISTIGNORE='bg:fg:history:h:ls:ls *:ll:ll *:sudo rm*'
 # Timestamp
 HISTTIMEFORMAT='%F %T '
 # Store history immediately
