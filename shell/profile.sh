@@ -27,6 +27,9 @@ export PATH=$PATH:$EC2_HOME/bin
 export PATH="/usr/local/share/npm/bin:$PATH"
 export CODE_PATH=$HOME/code
 
+#NAND2TETRIS
+export PATH="~/Desktop/nand2tetris/tools:$PATH"
+
 # go programming language
 export GOPATH=/usr/local/Cellar/go/
 export PATH=$PATH:$GOPATH/bin
