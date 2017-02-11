@@ -89,12 +89,12 @@ bind q:${hyper} ${toplefthalf}
 bind e:${hyper} ${toprighthalf}
 bind w:${hyper} throw next
 
-bind a:${otherhyper} ${lefthalf}
-bind s:${otherhyper} ${full}
-bind d:${otherhyper} ${righthalf}
+bind left:${otherhyper} ${lefthalf}
+bind down:${otherhyper} ${full}
+bind right:${otherhyper} ${righthalf}
 bind q:${otherhyper} ${toplefthalf}
 bind e:${otherhyper} ${toprighthalf}
-bind w:${otherhyper} throw next
+bind up:${otherhyper} throw next
 
 # Resize Bindings
 #bind r:${hyper} ${leftmost}
