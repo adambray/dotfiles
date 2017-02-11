@@ -71,6 +71,7 @@ default 1monitor  resolutions:${mon-laptop}
 # ======================================
 
 alias hyper ctrl;shift;alt;cmd
+alias otherhyper ctrl;alt;cmd
 
 # testing new switcher
 # bind tab:${hyper} switch
@@ -87,6 +88,13 @@ bind d:${hyper} ${righthalf}
 bind q:${hyper} ${toplefthalf}
 bind e:${hyper} ${toprighthalf}
 bind w:${hyper} throw next
+
+bind a:${otherhyper} ${lefthalf}
+bind s:${otherhyper} ${full}
+bind d:${otherhyper} ${righthalf}
+bind q:${otherhyper} ${toplefthalf}
+bind e:${otherhyper} ${toprighthalf}
+bind w:${otherhyper} throw next
 
 # Resize Bindings
 #bind r:${hyper} ${leftmost}
