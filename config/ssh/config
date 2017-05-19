@@ -17,3 +17,7 @@ Port 7468
 Host wdidc
 Hostname ssh.wdidc.org
 User git
+
+Host cfc_ci
+Hostname 138.197.53.180
+User root
