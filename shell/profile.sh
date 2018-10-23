@@ -34,6 +34,8 @@ export PATH="~/Desktop/nand2tetris/tools:$PATH"
 export GOPATH=/usr/local/Cellar/go/
 export PATH=$PATH:$GOPATH/bin
 
+export ANDROID_SDK=/Users/adambray/Library/Android/sdk
+export PATH=/Users/adambray/Library/Android/sdk/platform-tools:$PATH
 #
 # if ! type "brew" > /dev/null; then
 #   # Tab-completion for Git.
