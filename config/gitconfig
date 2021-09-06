@@ -1,6 +1,6 @@
 [user]
     name = Adam Bray
-    email = adam.bray@yale.edu
+    email = adam.bray@gmail.com
 [core]
     quotepath = false
     editor = atom -w
@@ -25,7 +25,7 @@
 [alias]
     # Show files ignored by git:
     ign = ls-files -o -i --exclude-standard
-	lcrev = log --reverse --no-merges --stat @{1}..
+	  lcrev = log --reverse --no-merges --stat @{1}..
     undocommit = reset --soft HEAD^
     undopush = push -f origin HEAD^:master
 [push]

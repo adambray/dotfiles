@@ -1,6 +1,4 @@
-# Start in code dir by default
-# cd ~/code
-
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Private environment variables
 source ~/.environment
@@ -9,18 +7,13 @@ source ~/.bashrc_orig
 # Easy 'cd' to common dirs
 export CDPATH=.:~:~/code/:~/code/stc/:~/code/personal:~/code/work/general_assembly
 
-# Node Path
 export NODE_PATH='/usr/local/lib/node_modules/'
 
-# Atom
 export EDITOR='atom -w'
 
-# ImageMagik
 export MAGICK_HOME="/usr/local/ImageMagick-6.5.1"
 export PATH="$MAGICK_HOME/bin:$PATH"
 
-# EC2 Tools
-# export JAVA_HOME=$(/usr/libexec/java_home)
 export EC2_HOME="/usr/local/ec2-api-tools-1.6.11.0"
 export PATH=$PATH:$EC2_HOME/bin
 
@@ -30,32 +23,11 @@ export CODE_PATH=$HOME/code
 #NAND2TETRIS
 export PATH="~/Desktop/nand2tetris/tools:$PATH"
 
-# go programming language
 export GOPATH=/usr/local/Cellar/go/
 export PATH=$PATH:$GOPATH/bin
 
 export ANDROID_SDK=/Users/adambray/Library/Android/sdk
 export PATH=/Users/adambray/Library/Android/sdk/platform-tools:$PATH
-#
-# if ! type "brew" > /dev/null; then
-#   # Tab-completion for Git.
-#   if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
-#   . `brew --prefix`/etc/bash_completion.d/git-completion.bash
-#   fi
-#
-#   if [ -f `brew --prefix`/etc/bash_completion.d/git-prompt.sh ]; then
-#       . `brew --prefix`/etc/bash_completion.d/git-prompt.sh
-#   fi
-#
-#   . `brew --prefix`/etc/profile.d/z.sh
-#
-#   # load Homebrew's shell completion
-#   if which brew > /dev/null && [ -f "$(brew --prefix)/Library/Contributions/brew_bash_completion.sh" ]
-#   then
-#     source "$(brew --prefix)/Library/Contributions/brew_bash_completion.sh"
-#   fi
-#
-# fi
 
 
 #################

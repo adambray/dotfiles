@@ -49,8 +49,6 @@ alias uncommit="git reset --soft HEAD^"
 # Application Aliases
 # ================
 
-alias mou='open -a "Mou"'
-alias hipchat='open -a "HipChat"'
 alias chrome='open -a "Google Chrome"'
 
 
