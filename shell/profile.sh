@@ -1,5 +1,3 @@
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
 # Private environment variables
 source ~/.environment
 source ~/.bashrc_orig
@@ -66,3 +64,5 @@ export RUBY_GC_MALLOC_LIMIT=60000000
 export LC_ALL="en_US.UTF-8"
 # use UTF-8
 export LANG="en_US"
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
