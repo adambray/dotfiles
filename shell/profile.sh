@@ -1,6 +1,5 @@
 # Private environment variables
 source ~/.environment
-source ~/.bashrc_orig
 
 # Easy 'cd' to common dirs
 export CDPATH=.:~:~/code/:~/code/stc/:~/code/personal:~/code/work/general_assembly
@@ -49,7 +48,7 @@ stty -ixon
 
 # RBenv and other apps in path
 export PATH="$HOME/.rbenv/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$HOME/bin:$PATH"
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 
 
